@@ -1,0 +1,140 @@
+/* CSS Document */
+a {
+	color: #2AA8D7;
+}
+a:hover {
+	color: #1B7090;
+}
+.color-main {
+	color: #EF5F3C;
+}
+.color-gray-dark {
+	color: #393939;
+}
+.color-gray-light {
+	color: #A5A5A5;
+}
+.col-xs-font-big {
+	font-size: 1.5em;
+}
+.col-xs-font-med {
+	font-size: 1.28em;
+}
+.col-xs-font-nor {
+	font-size: 1.14em;
+}
+.col-xs-font-small {
+	font-size: 0.857em;
+}
+.col-xs-font-tiny {
+	font-size: 0.642em;
+}
+.col-xs-pad-top-big {
+	padding-top: 1.5em;
+}
+.col-xs-pad-bottom-big {
+	padding-bottom: 1.5em;
+}
+.col-xs-pad-top-med {
+	padding-top: 1.28em;
+}
+.col-xs-pad-bottom-med {
+	padding-bottom: 1.28em;
+}
+.col-xs-pad-top-nor {
+	padding-top: 1.14em;
+}
+.col-xs-pad-bottom-nor {
+	padding-bottom: 1.14em;
+}
+.col-xs-pad-top-small {
+	padding-top: 0.857em;
+}
+.col-xs-pad-bottom-small {
+	padding-bottom: 0.857em;
+}
+.col-xs-pad-top-tiny {
+	padding-top: 0.642em;
+}
+.col-xs-pad-bottom-tiny {
+	padding-bottom: 0.642em;
+}
+.col-xs-pad-right-omit {
+	padding-right: 0;
+}
+.col-xs-pad-left-omit {
+	padding-left: 0;
+}
+.border-top {
+	border-bottom: 1px solid #e7e7e7;
+}
+.border-side {
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+.border-bottom {
+	border-bottom: 1px solid #e7e7e7;
+}
+.no-radius {
+	border-radius: 0;
+}
+.speech-bubble {
+	background-color: #424242;
+	color: #FFF;
+	position: relative;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 22px;
+}
+.speech-bubble:after {
+	content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 40px;
+    top: auto;
+    bottom: -20px;
+    border-top: 20px solid #424242;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+	
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+@-webkit-keyframes SlideIn { from { width:0%; } to { width:80%; } }
+@-moz-keyframes SlideIn { from { width:0%; } to { width:80%; } }
+@keyframes SlideIn { from { width:0%; } to { width:80%; } }
+
+.progress-bar {
+  -webkit-animation:SlideIn ease-in 1; 
+  -moz-animation:SlideIn ease-in 1;
+  animation:SlideIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+	
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
